@@ -1,6 +1,6 @@
 1) **cd commands with no arguments, with path to directory and with path to file as arguments:**
 
-![Image](https://github.com/sjosyamUCSD/cse15l-lab-reports/assets/146763351/2c486e2d-bd1b-4c46-938f-dfb6fae3a1ee)
+![Image](https://github.com/sjosyamUCSD/cse15l-lab-reports/assets/146763351/bb603e41-66e2-42ee-ad0f-42b18f8264db)
 
 *Explanation:*
 * The cd command with no arguments does not generate any output. This is because the cd command is to change between directories. With no argument, a directory is not found to change to. For this example, the working directory is /home.

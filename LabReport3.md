@@ -1,6 +1,6 @@
 **PART 1- BUGS**
 
-  For this section of the lab report, I decided to choose the `reverseInPlace()` method bug from week 4.
+  For this section of the lab report, I decided to choose the `ReverseInPlace()` method bug from week 4.
 
 1. A failure-inducing input as a JUnit test
 ```

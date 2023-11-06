@@ -1,4 +1,5 @@
 **PART 1- BUGS**
+
   For this section of the lab report, I decided to choose the `reverseInPlace()` method bug from week 4.
 
 1. A failure-inducing input as a JUnit test
@@ -28,12 +29,40 @@ public class ArrayTests {
 3. Screenshots of the symptom as the output of running the tests for each input above. 
 
 Here is a screenshot showing the non-failure inducing input: 
+![non-failure](https://github.com/sjosyamUCSD/cse15l-lab-reports/assets/146763351/931436cc-ef9f-48b7-b96f-398d6287e461)
 
 Here is a screenshot showing the failure inducing input: 
+![failure](https://github.com/sjosyamUCSD/cse15l-lab-reports/assets/146763351/5f4da915-ecc2-467c-9a35-8a04f6b4b276)
 
+4. Before the code change:
+```
+public class ArrayExamples {
 
+  // Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1]; 
+    }
+  }
+```
 
+After the code change: 
 
+```
+public class ArrayExamples {
+
+  // Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      int storeVar = arr[i];
+      arr[i] = arr[arr.length - i - 1]; 
+      storeVar = arr[arr.length - i - 1];
+
+    }
+  }
+```
+
+By creating a temporary array variable, `storeVar`, we are able to properly swap the elements to be reversed. Because of this, this enables the for loop to only traverse half of the orignally array's length. This solves the problem the failure-inducing input was highlighting as originally, only a part of the array values were being read and stored. 
 
 **PART 2- RESEARCHING COMMANDS**
   For this section of the lab report, I decided to research the `find` command line. 

@@ -68,6 +68,7 @@ By creating a temporary array variable, `storeVar`, we are able to properly swap
   For this section of the lab report, I decided to research the `find` command line. 
   The following are 4 find command-line options: 
   1. `-print`: this command-line option prints the path of each of the files that were found to the standard output.
+     
 Example #1:
 
 **command:**

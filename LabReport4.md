@@ -1,9 +1,9 @@
 **Logging into ieng6**
-To log into ieng6, I typed `ssh cs15lfa23ic@ieng6.ucsd.edu` then <enter> to execute. 
+To log into ieng6, I typed `ssh cs15lfa23ic@ieng6.ucsd.edu` then `<enter>`to execute. 
 ![Image]("https://github.com/sjosyamUCSD/cse15l-lab-reports/assets/146763351/c370cfb9-4468-4a01-ba7b-70c63cfeceb2")
 
 **Cloning fork of the repository using the SSH URL**
-To do this, I typed `git clone git@github.com:sjosyamUCSD/lab7.git` then <enter> to execute. 
+To do this, I typed `git clone git@github.com:sjosyamUCSD/lab7.git` then `<enter>` to execute. 
 ![Image]("https://github.com/sjosyamUCSD/cse15l-lab-reports/assets/146763351/166bbf81-9589-4bd3-a5e6-def64f358c2c")
 
 **Running the tests and demonstrating that they fail**

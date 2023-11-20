@@ -124,12 +124,17 @@ Sahithis-MBP-2:lab5 sahithijosyam$ find technical/government -print
         technical/911report/chapter-9.txt
 ```
  
+In this command-line option, what is being done is the `print` command line, listing out all of the paths 
+to the files that are returned. This could be useful in situations wherein double checking that the correct
+files are being located. It can be more efficient to use this as we are able to lcoate files from only the 
+correct directory rather than outputting every file path.
 
 
-    In this command-line option, what is being done is the `find` command line also prints out all of the paths to the files that are returned. 
-    This could be useful in situations wherein some form of verification is required. It can be used to double check that the correct files are
-    being located from the correct directories rather than simply outputting every file. 
-     
+SOURCE: 
+ChatGPT was used with the given prompt: "command line options for find command line". Out of the list that was outputted,
+4 were chosen and were individually prompted for more information that was later understood and written in my own words.  
+
+
    `-type type`: this command-line option searches for files of a specific type.
 Example #1:
 
@@ -189,6 +194,10 @@ What is being done here is the individual using this command can clarify specifi
 `find` command line. This is especially useful in situations where a directory contains a large number of files and only one or, of 
 a specific type, are needed to be located. 
 
+SOURCE: 
+ChatGPT was used with the given prompt: "command line options for find command line". Out of the list that was outputted,
+4 were chosen and were individually prompted for more information that was later understood and written in my own words.  
+
    `-prune`: this command-line option prevents the find command from searching within the specificied directories.
 Example 1:
 
@@ -242,6 +251,9 @@ This command line option is especially useful when an individual needs to find f
 It can be incredibly beneficial to use this where specific directories want to be excluded and the individual wants to skip sections 
 of the directory tree. 
 
+SOURCE: 
+ChatGPT was used with the given prompt: "command line options for find command line". Out of the list that was outputted,
+4 were chosen and were individually prompted for more information that was later understood and written in my own words.  
 
   `-atime n`: this command-line option searches for files that were accessed at the spcecified argument number of days ago, `n`.
 
@@ -303,3 +315,7 @@ technical/911report/chapter-11.txt
 This command line can be beneficial when trying to access only recent files in a directory that contain files from any date or time period. 
 What the command line does is only find and print out the files from the specified directory within the specified time interval argument, n, 
 stated in days. 
+
+SOURCE: 
+ChatGPT was used with the given prompt: "command line options for find command line". Out of the list that was outputted,
+4 were chosen and were individually prompted for more information that was later understood and written in my own words.  

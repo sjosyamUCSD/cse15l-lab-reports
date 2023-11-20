@@ -70,6 +70,7 @@ By creating a temporary array variable, `storeVar`, we are able to properly swap
 **PART 2- RESEARCHING COMMANDS**
   For this section of the lab report, I decided to research the `find` command line. 
   The following are 4 find command-line options: 
+  
   1. `-print`: this command-line option prints the path of each of the files that were found to the standard output.
      
 Example #1:
@@ -124,7 +125,7 @@ Example #1:
     This could be useful in situations wherein some form of verification is required. It can be used to double check that the correct files are
     being located from the correct directories rather than simply outputting every file. 
      
-  2. `-type type`: this command-line option searches for files of a specific type.
+  2.  `-type type`: this command-line option searches for files of a specific type.
 Example #1:
 
 **command:**
@@ -237,7 +238,7 @@ It can be incredibly beneficial to use this where specific directories want to b
 of the directory tree. 
 
 
-4. `-atime n`: this command-line option searches for files that were accessed at the spcecified argument number of days ago, `n`.
+ 4. `-atime n`: this command-line option searches for files that were accessed at the spcecified argument number of days ago, `n`.
 
 Example 1: 
      

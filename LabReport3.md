@@ -107,7 +107,8 @@ Sahithis-MBP-2:lab5 sahithijosyam$ find technical/government -print
        
   **output:**
 
-  ```
+```
+
         technical/911report
         technical/911report/chapter-13.4.txt
         technical/911report/chapter-13.5.txt
@@ -121,7 +122,9 @@ Sahithis-MBP-2:lab5 sahithijosyam$ find technical/government -print
         technical/911report/chapter-6.txt
         technical/911report/chapter-7.txt
         technical/911report/chapter-9.txt
- ```
+```
+ 
+
 
     In this command-line option, what is being done is the `find` command line also prints out all of the paths to the files that are returned. 
     This could be useful in situations wherein some form of verification is required. It can be used to double check that the correct files are

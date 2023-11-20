@@ -35,6 +35,7 @@ Here is a screenshot showing the failure inducing input:
 ![failure](https://github.com/sjosyamUCSD/cse15l-lab-reports/assets/146763351/5f4da915-ecc2-467c-9a35-8a04f6b4b276)
 
 4. Before the code change:
+   
 ```
 public class ArrayExamples {
 
@@ -46,7 +47,9 @@ public class ArrayExamples {
   }
 ```
 
+
 After the code change: 
+
 
 ```
 public class ArrayExamples {

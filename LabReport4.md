@@ -32,5 +32,7 @@ By typing `git add ListExamples.java<enter>` and `git commit -m "successful run"
 Then, I pushed the change onto Github by typing `git push<enter>`. This is shown in the image below. 
 
 ![image]("https://github.com/sjosyamUCSD/cse15l-lab-reports/assets/146763351/4d4cd9fb-0782-45df-8152-93c5a22b827a")
+<img width="747" alt="Screen Shot 2023-11-19 at 9 19 02 PM" src="https://github.com/sjosyamUCSD/cse15l-lab-reports/assets/146763351/79b5e764-d10d-4d1e-8e7e-7e777c66533c">
+
 
 

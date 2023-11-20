@@ -77,9 +77,10 @@ Example #1:
 
 **command:**
 
-     ```
-       Sahithis-MBP-2:lab5 sahithijosyam$ find technical/government -print
-     ```
+  ```
+Sahithis-MBP-2:lab5 sahithijosyam$ find technical/government -print
+```
+ 
      
 **output:**
 

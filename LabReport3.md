@@ -80,11 +80,12 @@ Example #1:
   ```
 Sahithis-MBP-2:lab5 sahithijosyam$ find technical/government -print
 ```
+
  
      
 **output:**
 
-    ```
+   ```
        technical/government
        technical/government/About_LSC
        technical/government/About_LSC/LegalServCorp_v_VelazquezSyllabus.txt
@@ -93,20 +94,20 @@ Sahithis-MBP-2:lab5 sahithijosyam$ find technical/government -print
        technical/government/About_LSC/Comments_on_semiannual.txt
        technical/government/About_LSC/Special_report_to_congress.txt
        technical/government/About_LSC/CONFIG_STANDARDS.txt
-     ```
+   ```  
 
   
   Example #2:
   
   **command:**
   
-       ```
+   ```
         Sahithis-MBP-2:lab5 sahithijosyam$ find technical/911report -print
-       ```
+   ```
        
   **output:**
   
-      ```
+    ```
         technical/911report
         technical/911report/chapter-13.4.txt
         technical/911report/chapter-13.5.txt
@@ -120,7 +121,7 @@ Sahithis-MBP-2:lab5 sahithijosyam$ find technical/government -print
         technical/911report/chapter-6.txt
         technical/911report/chapter-7.txt
         technical/911report/chapter-9.txt
-       ```
+    ```
 
     In this command-line option, what is being done is the `find` command line also prints out all of the paths to the files that are returned. 
     This could be useful in situations wherein some form of verification is required. It can be used to double check that the correct files are
@@ -131,13 +132,13 @@ Example #1:
 
 **command:**
 
-     ```
+   ```  
      Sahithis-MBP-2:lab5 sahithijosyam$ find technical/ -type d
-     ```
+   ```  
      
 **output:**
 
-     ```
+   ``` 
      technical/
      technical//government
      technical//government/About_LSC
@@ -149,7 +150,7 @@ Example #1:
      technical//plos
      technical//biomed
      technical//911report
-    ```
+   ```
 
 Example #2: 
 

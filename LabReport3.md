@@ -82,7 +82,7 @@ Example #1:
      
 **output:**
 
-     ```
+    ```
        technical/government
        technical/government/About_LSC
        technical/government/About_LSC/LegalServCorp_v_VelazquezSyllabus.txt

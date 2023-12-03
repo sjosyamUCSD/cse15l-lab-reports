@@ -28,7 +28,7 @@ By pressing `<up><up><enter>` to run the command that was two up in my history, 
 ![image](three.png)
 
 **Committing and pushing the changes**
-By typing `git add ListExamples.java<enter>` and `git commit -m "successful run"<enter>` I was able to commit and add a message.
+By typing `git add ListExamples.java<enter>` and `git commit -m "successful run"<enter>` I was able to commit and add a message. The `git add` command allows the user to include updates to a particular file in the next commit. However, the change is not recorded until the `git commit` command is also run. 
 Then, I pushed the change onto Github by typing `git push<enter>`. This is shown in the image below. 
 
 ![image](seven.png)

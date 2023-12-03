@@ -31,7 +31,7 @@ By pressing `<up><up><enter>` to run the command that was two up in my history, 
 By typing `git add ListExamples.java<enter>` and `git commit -m "successful run"<enter>` I was able to commit and add a message.
 Then, I pushed the change onto Github by typing `git push<enter>`. This is shown in the image below. 
 
-![image]("https://github.com/sjosyamUCSD/cse15l-lab-reports/assets/146763351/4d4cd9fb-0782-45df-8152-93c5a22b827a")
+![image](seven.png)
 
 
 

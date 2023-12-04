@@ -1,4 +1,6 @@
 **PART 1 - DEBUGGING SCENARIO**
+
+
 Student post: 
 Hi, I had a problem with my grade.sh bash script as it is marking the java files inputted as completely correct although there are errors in the file after I have git cloned a student repository to be graded. Below is a screenshot I have attached to show this problem. The screenshots show my bash script and terminal output. 
 Could I get help with this? 
